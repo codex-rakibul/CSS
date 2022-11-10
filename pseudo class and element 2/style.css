@@ -1,0 +1,66 @@
+
+.Pragraph p:nth-child(odd):hover{
+	background-color:tomato;
+	color:white;
+}
+.Pragraph p:nth-child(even):hover{
+	background-color:blueviolet;
+	color:white;
+}
+.List li{
+	
+	list-style-type: none;
+	float: left;
+
+}
+.List li:nth-child(odd){
+	font-weight: bold;
+	width: 150px;
+	padding: 10px;
+	margin: 5px 5px;
+	background-color: skyblue;
+	color:tomato;
+	text-align: center;
+}
+.List li:nth-child(even){
+	font-weight: bold;
+	width: 150px;
+	padding: 10px;
+	margin: 5px 5px;
+	background-color: orange;
+	color:white;
+	text-align: center;
+}
+.List li:nth-child(odd):hover{
+	border-style: dotted;
+	border-color:darkred;
+	border-radius: 5px;
+}
+.Selet P::selection{
+	color:red;
+}
+.Selet #s::first-letter{
+	color:tomato;
+	font-size: 4rem;
+}
+.In input{
+	width: 150px;
+	height:30px;
+	border: 2px solid red;
+	color: white;
+	font-weight: bold;
+}
+.In label{
+	padding:7.5px;
+	border: 2px solid blue;
+}
+.In input:focus{
+	width: 300px;
+	background-color:tomato;
+	border-color: blue;
+	border-radius:3px;
+	border-style: solid;
+}
+.In placeholder{
+	color: white;
+}

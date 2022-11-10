@@ -1,0 +1,27 @@
+.OverFlow .OverFlow_P{
+	width: 300px;
+	height:280px;
+	background-color: green;
+	overflow:auto;
+
+}
+.OverFlow .OverFlow_P2{
+	width: 300px;
+	height:280px;
+	background-color: red;
+}
+.Tooltip .Tooltip_test{
+	visibility: hidden;
+	top:100px;
+	left: 50px;
+	width: 200px;
+	position: absolute;
+	border: 1px solid red;
+	background-color: blueviolet;
+	color: darkred;
+	text-align:center;
+
+}
+.Tooltip:hover .Tooltip_test{
+	visibility: visible;
+}

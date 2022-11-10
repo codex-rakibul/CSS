@@ -1,0 +1,29 @@
+
+.table2{
+	border: 1px solid red;
+	border-collapse: collapse;
+	
+}
+th,td{
+	border: 1px solid red;
+	width: 300px;
+}
+th{
+	background-color: black;
+	height: 60px;
+	color: red;
+	font-size: 28px;
+}
+td{
+	text-align: center;
+    height: 40px;
+}
+
+tr:nth-child(odd){
+	background-color: gray;
+	color: white;
+}
+tr:hover{
+	background-color: tomato;
+	cursor:pointer;
+}

@@ -1,0 +1,181 @@
+body{
+	background-color: #800000;
+	
+}
+.List{
+	max-width: 1000px;
+	height: 610px;
+	margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
+	background-color:rgb(3, 1, 9);
+
+
+}
+.List ul{
+	float: right;
+	text-align: center;
+	margin:2px 2px 1px 1px;
+
+}
+.List ul li{
+	width:100px;
+	height:25px;
+	margin: 3px;
+	padding: 5px;
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 5px;
+	list-style-type: none;
+	background-color: tomato;
+	cursor: pointer;
+	float: left;
+      
+}
+.List ul li {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+
+}
+.List #HH:hover{
+	border: 2px solid orangered;
+	background-color:white;
+	color: tomato;
+	cursor: pointer;
+
+}
+.List #AA2:hover{
+	border: 2px solid blue;
+	background-color:white;
+	color: blue;
+	cursor: pointer;
+
+}
+.List #Skill:hover{
+	border: 2px solid darkred;
+	background-color:white;
+	color: darkred;
+	cursor: pointer;
+
+}
+
+.List #Pro:hover{
+	border: 2px solid green;
+	background-color:white;
+	color: green;
+	cursor: pointer;
+
+}
+.List #C2:hover{
+	border: 2px solid gray;
+	background-color:white;
+	color: black;
+	cursor: pointer;
+
+}
+.List #HH::before{
+	content:'\e065';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 5px 5px;
+}
+.List #AA2::before{
+	content:'\f2bb';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 5px 5px;
+}
+.List #Pro::before{
+	content:'\f15b';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 5px 5px;
+}
+.List #C2::before{
+	content:'\f87b';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 5px 5px;
+}
+.List #Skill::before{
+	content:'\f0ae';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 10px 10px;
+}
+.Pra p{
+	margin: 0px 0px 0px 10px;
+	color: white;
+	width: 550px;
+	text-align: justify;
+	cursor:default;
+	float: left;
+}
+
+.Pra p::first-letter{
+	font-size: 2.5rem;
+	color: tomato;
+}
+.Pra #pp:first-letter:selection{
+	color: white;
+}
+.Pra p::selection{
+	cursor: ;
+	color:tomato;
+}
+.Pra2{
+	margin: 8px 8px 8px 10px;
+	text-align: justify;
+	cursor:default;
+	color: white;
+}
+.Pra2 p::selection{
+	color:tomato;
+}
+.c1{
+	clear: both;
+}
+.img img{
+	margin: 100px 80px 20px 600px;
+	width: 360px;
+	height: 371px;
+	position: absolute;
+	float: left;
+}
+.name{
+
+}
+.name #hey{
+	cursor:default;
+	margin: 100px 0px 0px 10px;
+	color: white;
+}
+
+.name h1{
+	cursor:default;
+
+	margin: 0px 0px 0px 10px;
+	color: tomato;
+	float: initial;
+}
+
+.name h1::selection{
+	color: white;
+	background-color: tomato;
+}
+.name h3{
+	cursor:default;
+	margin: 0px 0px 0px 10px;
+	color: white;
+	float: initial;
+}
+.name #Web{
+	cursor:default;
+	color: white;
+}
+.name #Web:hover{
+	color: tomato;
+}

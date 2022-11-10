@@ -1,0 +1,153 @@
+body{
+	background-color:black;
+}
+.name #hey{
+	margin: 100px 0px 0px 0px;
+	color: white;
+}
+
+.name h1{
+	margin: 0px 0px 0px 0px;
+	color: tomato;
+	float: initial;
+}
+
+.name h1::selection{
+	color: white;
+	background-color: tomato;
+}
+.name h2{
+	margin: 0px 0px 0px 0px;
+	color: white;
+	float: initial;
+}
+.name #Web{
+	color: tomato;
+	}
+.Sp2 #Sp{
+	color: tomato;
+	float: left;
+}
+.cl1{
+	float: left;
+}
+.List ul{
+	list-style-type: none;
+	text-align: right;
+	float: right;
+}
+.List li{
+	width: 150px;
+	height: 20px;
+	margin: 2px 2px;
+	padding: 5px;
+	border: 1px solid gray;
+	background-color: tomato;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+	float: left;
+}
+.List #H2:hover{
+	border: 2px solid orangered;
+	background-color:white;
+	color: tomato;
+	cursor: pointer;
+
+}
+.List #AA2:hover{
+	border: 2px solid blue;
+	background-color:white;
+	color: blue;
+	cursor: pointer;
+
+}
+.List #Skill:hover{
+	border: 2px solid darkred;
+	background-color:white;
+	color: darkred;
+	cursor: pointer;
+
+}
+
+.List #Pro:hover{
+	border: 2px solid green;
+	background-color:white;
+	color: green;
+	cursor: pointer;
+
+}
+.List #C2:hover{
+	border: 2px solid gray;
+	background-color:white;
+	color: black;
+	cursor: pointer;
+
+}
+.List #H2::before{
+	content:'\e065';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 10px 10px;
+}
+.List #AA2::before{
+	content:'\f2bb';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 10px 10px;
+}
+.List #Skill::before{
+	content:'\f0ae';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 10px 10px;
+}
+.List #Pro::before{
+	content:'\f15b';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 10px 10px;
+}
+.List #C2::before{
+	content:'\f87b';
+	font-family: 'Font Awesome 5 Free';
+	display: inline;
+	margin: 10px 10px;
+}
+
+.c1{
+	clear: both;
+}
+.Pra p{
+	color: white;
+	width: 800px;
+	text-align: justify;
+	float: left;
+}
+
+.Pra p::first-letter{
+	font-size: 2.5rem;
+	color: tomato;
+}
+.Pra #pp:first-letter:selection{
+	color: white;
+}
+.Pra p::selection{
+	color: tomato;
+}
+.img img{
+	margin: 80px 200px 20px 915px;
+	width: 360px;
+	height: 370px;
+	position: absolute;
+	float: left;
+}
+.br{
+	clear: both;
+}
+.Pra2{
+	color: white;
+}
+.Pra2 p::selection{
+	color: tomato;
+}

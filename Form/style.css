@@ -1,0 +1,32 @@
+input[type=text]{
+	max-width: 200px;
+	padding:10px;
+	border-radius:5px ;
+	border-color: tomato;
+}
+input[type=password]{
+	max-width: 200px;
+	padding:10px;
+	border-radius:5px ;
+	border-color: darkred;
+}
+
+label{
+	width:250px;
+	padding:10px;
+	border:1px solid gray;
+	text-align: center;
+}
+#search{
+	background-image:url("img/search.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	padding: 10px 30px;
+	font-size: 1rem;
+	width: 50px;
+	transition: width 0.2s ease-in-out;
+}
+#search:focus{
+	background-color: gray;
+	width: 350px;
+}

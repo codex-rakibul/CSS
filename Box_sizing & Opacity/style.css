@@ -1,0 +1,35 @@
+.div1{
+	text-align: justify;
+	background-color:green;
+	height: 120px;
+	width: 650px;
+	padding:10px;
+	border:2px solid blue;
+	box-sizing: border-box;
+	float: left;
+
+}
+.div2{
+	text-align: justify;
+	background-color:red;
+	height: 120px;
+	width: 650px;
+	padding:10px ;
+	border:2px solid gray;
+	float: left;
+
+}
+.h1{
+	float: right;
+}
+.text{
+	opacity: 0.6;
+}
+img{
+	width:250px;
+	opacity: 0.6;
+}
+img:hover{
+	opacity: 1;
+
+}

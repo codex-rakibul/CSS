@@ -1,0 +1,15 @@
+input{
+	background-color: tomato;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    width: 200px;
+    padding: 10px;
+    margin:10px;
+    box-sizing: border-box;
+}
+input:hover{
+   background-color: gray;
+   color:darkred;
+}

@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#00203FFF;
+}
+
+/*------------------
+CV CSS Section Start
+------------------*/
+.CV{
+		width: 1000px;
+		height: auto;
+		padding: 10px;
+		background-color: white;
+		margin: 0 auto;
+		color: black;
+		border: 3px solid teal;
+		border-radius: 12px;
+}
+
+/*--------------------------------
+Clear and Harizantal Section Start
+--------------------------------*/
+.Clear{
+	clear: both;
+}
+hr{
+	border: 2px solid teal;
+	width: 100%;
+	margin: 20px auto;
+	border-bottom: none;
+}
+.common-hr{
+  border: 1px solid teal;
+  border-bottom: none;
+  width: 100%;
+}
+/*------------------------------
+Clear and Harizantal Section End
+------------------------------*/
+
+/*------------------------------
+All header #tag Customaize Start
+------------------------------*/
+ h1, h2, h3,h4, h5{
+ 	color: teal;
+ }
+/*----------------------------
+All header #tag Customaize End
+----------------------------*/ 
+
+
+/*------------------
+Header Section Start
+------------------*/
+.Header-bio{
+	padding: 40px 0px 0px 15px;
+   float: left;
+}
+.img{
+   text-align: center;
+   width: 150px;
+   border: 3px solid teal;
+   box-shadow: 5px 10px 18px teal;
+   border-radius: 50%;
+   background-color: teal;
+   background-position: center;
+   float: left;
+   
+}
+.Header-bio h1{
+	color: teal;
+}
+.Header-Contact {
+	margin: 50px 0px 0px 0px;
+	float: right;	
+}
+.Header-Contact p{
+	padding: 2px 2px;
+}
+.Header-Contact a{
+	text-decoration: none;
+	font-weight: bold;
+	color: teal;
+}
+.Header-Contact a:hover{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #00203FFF;
+	color: #00203FFF;
+}
+/*---------------
+Header Section End
+----------------*/
+
+/*----------------
+Main Section Start
+----------------*/
+/*--------------------------------
+Personal Information Section Start
+--------------------------------*/
+#Personal-Section{
+
+}
+
+#Personal-Section .content{
+
+}
+#Personal-Section .content .left-div{
+	width: 30%;
+	float: left;
+}
+#Personal-Section .content .Right-div{
+	width: 70%;
+	color: black;
+	text-align: justify;
+	float: left;
+}
+/*------------------------------
+Personal Information Section End
+------------------------------*/
+
+/*---------------------------
+Work Experience Section Start      
+---------------------------*/
+#Work-Section{
+
+}
+#Work-Section .content{
+
+}
+#Work-Section .content .left-div{
+	width: 30%;
+	float: left;
+}
+#Work-Section .content .Right-div{
+	width: 70%;
+	color: black;
+	text-align: justify;
+	float: left;
+}
+#Work-Section .content .Right-div .p2, .p3{
+	padding: 14px 0px 0px 0px;
+}
+/*-------------------------
+Work Experience Section End 
+-------------------------*/
+
+/*---------------------
+Education Section Start
+---------------------*/
+#Education-Section{
+
+}
+#Education-Section .content{
+
+}
+#Education-Section .content .left-div{
+	width: 30%;
+	float: left;
+}
+#Education-Section .content .Right-div .p1{
+	width: 33%;
+	color: black;
+	text-align: justify;
+	float: left;
+}
+#Education-Section .content .Right-div .p2{
+	width: 33%;
+	color: black;
+	text-align: justify;
+	float: right;
+}
+#Education-Section .content .Right-div .p1, .p2{
+	padding: 0px 0px 0px 5px;
+}
+/*-------------------
+Education Section End
+-------------------*/
+/*--------------
+Main Section End  
+--------------*/
+
+/*------------------
+FOOTER Section Start  
+------------------*/
+.Footer{
+	margin:15px 0px 0px 0px;
+	padding: 10px 10px;
+	text-align: center;
+	color: white;
+	background-color: teal;
+}
+.Footer a{
+   color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+.Footer p{
+	padding: 10px;
+}
+/*----------------
+FOOTER Section End
+----------------*/
+
+/*----------------
+CV CSS Section End
+----------------*/

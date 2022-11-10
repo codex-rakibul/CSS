@@ -1,0 +1,11 @@
+#phn{
+	width: 400px;
+}
+#phn2{
+	width: 400px;
+	margin: 2px;
+	padding:10px;
+}
+#phn2:hover{
+	border-color: tomato;
+}
